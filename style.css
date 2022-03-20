@@ -1,0 +1,125 @@
+@import "https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css";
+*{
+    padding: 0px;
+    margin: opx;
+    font-family: Arial, Helvetica, sans-serif;
+}
+body{
+    background-image: url(img.png);
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+    box-sizing: border-box;
+    margin-top: 0px;
+    margin: 0%;
+}
+.start{
+   background-color: blueviolet;
+   text-align: center;
+
+}
+
+.start ul{
+    display: inline-flex;
+    list-style: none;
+
+}
+.start ul li{
+    width: 120px;
+   padding:auto;
+   border: 20px;
+   border-width: 20px;
+   
+
+}
+.start ul li a{
+    text-decoration: none;
+    color: white;
+}
+.active,.start ul li:hover{
+background: rgb(166, 137, 221);
+border-radius: 30px;
+border: 15px;
+border-width: 50px;
+
+}
+.sub-menu0{
+    display: none;
+
+}
+.start ul li:hover .sub-menu0{
+    display: block;
+    position: absolute;
+    margin-left: -15px;
+    background-color:transparent;
+}
+.sub-menu1{
+    display: none;
+
+}
+.start ul li:hover .sub-menu1{
+    display: block;
+    position: absolute;
+    margin-left: -15px;
+    background-color:transparent;
+    
+}
+.start ul li:hover .sub-menu1 ul{
+    display: block;
+    margin: 3px;
+}
+.start ul li:hover .sub-menu1 ul li{
+    width: 150px;
+    padding: 10px;
+    background-color: transparent;
+    border-bottom: 1px;
+    text-align: left;
+    border-radius: 0px;
+
+}
+.start ul li:hover .sub-menu1 ul li a:hover{
+    color: blueviolet;
+}
+.sub-menu2{
+    display: none;
+}
+.hoverme:hover .sub-menu2{
+    display: block;
+    position: absolute;
+    background-color: orangered;
+    
+}
+.lessons:hover .sub-menu2{
+    display: block;
+    position: absolute;
+    margin-top: -20px;
+    margin-left: 70px;
+    background-color: black;
+}
+
+.start ul li:hover .photos{
+    display: flex;
+    padding: left;
+    border: 5px solid;
+    width: 80px;
+    height: 40px;
+    margin: 0%  ;
+    
+}
+.start ul li:hover .photos ul li .img1{
+    width:  80px;
+    height: 40px;
+
+}
+ i .fa fa-phone{
+    color:rebeccapurple ;
+
+}
+.content{
+    margin-left: 0%;
+    padding:left;
+    position: relative;
+    
+}
+
+
